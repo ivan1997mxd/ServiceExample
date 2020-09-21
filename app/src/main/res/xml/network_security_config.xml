@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- These are temporary until a real server is up  and running -->
+        <domain includeSubdomains="true">192.168.12.3</domain> <!-- WiFi Address in Office -->
+        <domain includeSubdomains="true">10.16.4.94</domain> <!-- WiFi Address in StudentUnion Building -->
+        <domain includeSubdomains="true">142.55.230.172</domain><!-- LAN Address in Office -->
+    </domain-config>
+</network-security-config>
